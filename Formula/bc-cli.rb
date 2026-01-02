@@ -1,16 +1,16 @@
 class BcCli < Formula
   desc "Butler Coffee CLI - Discover coffee knowledge and manage subscriptions from your terminal"
   homepage "https://github.com/ButlerCoffee/bc-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ButlerCoffee/bc-cli/releases/download/v1.0.0/bc-cli-darwin-arm64"
-      sha256 "92c8f92e9e5efc92c55c24eac3e2aff5f7d413844768d9b6d028ac055976c3f5" # ARM64
+      url "https://github.com/ButlerCoffee/bc-cli/releases/download/v1.0.1/bc-cli-darwin-arm64"
+      sha256 "2cd84819827631d6238a8ffc9f7ff1916dd1a6b4078835d45cce3598f9f13a7a" # ARM64
     else
-      url "https://github.com/ButlerCoffee/bc-cli/releases/download/v1.0.0/bc-cli-darwin-amd64"
-      sha256 "de902b67650969f9a8f15d5859e3a7eb6e1989209aaa7270c27919ebf6e940ae" # AMD64
+      url "https://github.com/ButlerCoffee/bc-cli/releases/download/v1.0.1/bc-cli-darwin-amd64"
+      sha256 "2abc2e52d25e980858c76edbd39832f7ad287d11cd8610e9e28c74cb81c95717" # AMD64
     end
   end
 
