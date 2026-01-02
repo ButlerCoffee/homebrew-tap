@@ -3,7 +3,7 @@ cask "bc-cli" do
   name "bc-cli"
   desc "Butler Coffee CLI - Discover coffee knowledge and manage subscriptions from your terminal"
   homepage "https://github.com/ButlerCoffee/bc-cli"
-  version "1.1.1"
+  version "1.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,12 +12,12 @@ cask "bc-cli" do
   on_macos do
     on_intel do
       url "https://github.com/ButlerCoffee/bc-cli/releases/download/v#{version}/bc-cli-darwin-amd64"
-      sha256 "5cbf531a3283e8140eb92b1906579dcfeb125f398c2ec59b75778be09ebcc768"
+      sha256 "2444dbbae8bd29308ab6734ae3af1f62116b2e1916aaa34ca8f723bb4f1326fe"
       binary "bc-cli-darwin-amd64", target: "bc-cli"
     end
     on_arm do
       url "https://github.com/ButlerCoffee/bc-cli/releases/download/v#{version}/bc-cli-darwin-arm64"
-      sha256 "20e019de190dcb7ab4b2b51b6fa67a24788900358fc5d9941fd086ef3224d3bf"
+      sha256 "7f021e54ba1ed0753942963b4039478e9521a490b81cb4488f8969df5b34f53c"
       binary "bc-cli-darwin-arm64", target: "bc-cli"
     end
   end
@@ -25,12 +25,12 @@ cask "bc-cli" do
   on_linux do
     on_intel do
       url "https://github.com/ButlerCoffee/bc-cli/releases/download/v#{version}/bc-cli-linux-amd64"
-      sha256 "919a607a110d984520b7c4d737eb448e5c47c7db960332745db64c90ff033dd2"
+      sha256 "c34fcfa45904bad8a7834caa33c32064e086fac6f024a1b0be956feb672aa86f"
       binary "bc-cli-linux-amd64", target: "bc-cli"
     end
     on_arm do
       url "https://github.com/ButlerCoffee/bc-cli/releases/download/v#{version}/bc-cli-linux-arm64"
-      sha256 "c0e921693daa1ce1f39d1a565a8dd0d5b99dc3ad52f1f383158432f62c36986b"
+      sha256 "2e3efd758a49ebbf127dac3125cfc5c11bc9fc2058c1d00ce0f4291c1524a847"
       binary "bc-cli-linux-arm64", target: "bc-cli"
     end
   end
